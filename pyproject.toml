@@ -8,9 +8,11 @@ dependencies = [
     "asyncio>=3.4.3",
     "autogen-agentchat>=0.5.7",
     "autogen-core>=0.5.7",
-    "autogen-ext[ollama,openai]>=0.5.7",
+    "autogen-ext[langchain,ollama,openai]>=0.5.7",
     "autogenstudio>=0.4.2.2",
     "dotenv>=0.9.9",
     "ipykernel>=6.29.5",
+    "langchain-community>=0.3.25",
+    "langchain-openai>=0.3.23",
     "pydantic>=2.11.5",
 ]
